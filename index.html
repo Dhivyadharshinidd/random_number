@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random numbers</title>
+</head>
+
+<body style="text-align: center;">
+    <h1>Random numbers between 1 and 100</h1>
+    <p><b>NOTE :</b>Refresh the page to see new random numbers</p>
+    <p id="random"></p>
+    <script>
+        document.getElementById("random").innerHTML =
+            Math.floor(Math.random() * 100) + 1;
+    </script>
+</body>
+
+
+</html>
